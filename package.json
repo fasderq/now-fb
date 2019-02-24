@@ -1,0 +1,41 @@
+{
+  "name": "refuck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Satana <fasderq@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:dev": "next",
+    "build:dev": "next build",
+    "build": "NODE_ENV=production next build",
+    "export": "next export",
+    "start": "next start",
+    "now-build": "next build"
+  },
+  "dependencies": {
+    "@types/next": "^8.0.1",
+    "next": "^8.0.3",
+    "node-sass": "^4.7.2",
+    "preact": "^8.4.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "sass-rem": "^2.0.1",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/facebook-js-sdk": "^3.2.0",
+    "@types/react": "^16.7.13",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-define": "^1.3.0",
+    "typescript": "^3.3.3"
+  }
+}
